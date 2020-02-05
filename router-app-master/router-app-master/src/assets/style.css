@@ -1,0 +1,78 @@
+p {
+  font-size: 20px;
+}
+
+*{
+  margin: 0;
+}
+
+a:visited {color: blue}
+a:hover {color: crimson}
+
+body {
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+	background-attachment: fixed;
+  background-blend-mode: screen;
+
+}
+
+.hr {
+  margin: 10px 5px;
+  padding: 5px;
+  background-color: #E3DFD4;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+.overlay {
+  height: 5vh;
+  margin: 5px;
+  background-color: #CEC7B4;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+
+}
+
+.header-title {
+    padding-top: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navbar {
+  vertical-align: middle;
+  margin: 7px;
+  background-color: #E3DFD4;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  font-size: 17px;
+  text-indent: .5%;
+}
+
+.sidebar {
+  padding-left: 10px;
+  margin: 5px;
+  font-family: Arial, sans-serif;
+  font-weight: 200;
+  text-align: left;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+
+}
+
+.nodes {
+  font-size: 14px;
+  padding: 5px;
+}
+
+.contents {
+  text-align: left;
+}
